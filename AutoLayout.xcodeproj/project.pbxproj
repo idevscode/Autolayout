@@ -14,6 +14,12 @@
 		97758CF61FACE4CD0035FF0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97758CF41FACE4CD0035FF0F /* LaunchScreen.storyboard */; };
 		97758D011FACE4CD0035FF0F /* AutoLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97758D001FACE4CD0035FF0F /* AutoLayoutTests.swift */; };
 		97758D0C1FACE4CD0035FF0F /* AutoLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97758D0B1FACE4CD0035FF0F /* AutoLayoutUITests.swift */; };
+		97758D1F1FAD06E60035FF0F /* ConstraintPrioritiesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97758D1E1FAD06E60035FF0F /* ConstraintPrioritiesVC.swift */; };
+		97758D221FAD0C530035FF0F /* HorizontalAutoLayOutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97758D211FAD0C530035FF0F /* HorizontalAutoLayOutVC.swift */; };
+		97758D241FAD0E510035FF0F /* artist.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97758D231FAD0E510035FF0F /* artist.jpg */; };
+		97758D261FAD0E880035FF0F /* superhero.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97758D251FAD0E880035FF0F /* superhero.jpg */; };
+		97758D291FAE4E390035FF0F /* IntrinsicContentSizeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97758D281FAE4E390035FF0F /* IntrinsicContentSizeVC.swift */; };
+		97BBB63C1FD942F200F6EF62 /* CompressionPriorityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BBB63B1FD942F200F6EF62 /* CompressionPriorityVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		97758D071FACE4CD0035FF0F /* AutoLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97758D0B1FACE4CD0035FF0F /* AutoLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutUITests.swift; sourceTree = "<group>"; };
 		97758D0D1FACE4CD0035FF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97758D1E1FAD06E60035FF0F /* ConstraintPrioritiesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPrioritiesVC.swift; sourceTree = "<group>"; };
+		97758D211FAD0C530035FF0F /* HorizontalAutoLayOutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalAutoLayOutVC.swift; sourceTree = "<group>"; };
+		97758D231FAD0E510035FF0F /* artist.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = artist.jpg; sourceTree = "<group>"; };
+		97758D251FAD0E880035FF0F /* superhero.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = superhero.jpg; sourceTree = "<group>"; };
+		97758D281FAE4E390035FF0F /* IntrinsicContentSizeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntrinsicContentSizeVC.swift; sourceTree = "<group>"; };
+		97BBB63B1FD942F200F6EF62 /* CompressionPriorityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressionPriorityVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,16 @@
 		97758CEA1FACE4CD0035FF0F /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
+				97758D271FAE4E100035FF0F /* IntrinsicContentSize */,
+				97758D201FAD0C050035FF0F /* Constraints and View Hierarchies */,
 				97758CEB1FACE4CD0035FF0F /* AppDelegate.swift */,
 				97758CED1FACE4CD0035FF0F /* ViewController.swift */,
 				97758CEF1FACE4CD0035FF0F /* Main.storyboard */,
 				97758CF21FACE4CD0035FF0F /* Assets.xcassets */,
 				97758CF41FACE4CD0035FF0F /* LaunchScreen.storyboard */,
 				97758CF71FACE4CD0035FF0F /* Info.plist */,
+				97758D1B1FAD00890035FF0F /* ConstraintPriorities */,
+				97BBB63B1FD942F200F6EF62 /* CompressionPriorityVC.swift */,
 			);
 			path = AutoLayout;
 			sourceTree = "<group>";
@@ -123,6 +139,32 @@
 				97758D0D1FACE4CD0035FF0F /* Info.plist */,
 			);
 			path = AutoLayoutUITests;
+			sourceTree = "<group>";
+		};
+		97758D1B1FAD00890035FF0F /* ConstraintPriorities */ = {
+			isa = PBXGroup;
+			children = (
+				97758D1E1FAD06E60035FF0F /* ConstraintPrioritiesVC.swift */,
+			);
+			path = ConstraintPriorities;
+			sourceTree = "<group>";
+		};
+		97758D201FAD0C050035FF0F /* Constraints and View Hierarchies */ = {
+			isa = PBXGroup;
+			children = (
+				97758D251FAD0E880035FF0F /* superhero.jpg */,
+				97758D231FAD0E510035FF0F /* artist.jpg */,
+				97758D211FAD0C530035FF0F /* HorizontalAutoLayOutVC.swift */,
+			);
+			path = "Constraints and View Hierarchies";
+			sourceTree = "<group>";
+		};
+		97758D271FAE4E100035FF0F /* IntrinsicContentSize */ = {
+			isa = PBXGroup;
+			children = (
+				97758D281FAE4E390035FF0F /* IntrinsicContentSizeVC.swift */,
+			);
+			path = IntrinsicContentSize;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +274,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97758D241FAD0E510035FF0F /* artist.jpg in Resources */,
+				97758D261FAD0E880035FF0F /* superhero.jpg in Resources */,
 				97758CF61FACE4CD0035FF0F /* LaunchScreen.storyboard in Resources */,
 				97758CF31FACE4CD0035FF0F /* Assets.xcassets in Resources */,
 				97758CF11FACE4CD0035FF0F /* Main.storyboard in Resources */,
@@ -260,7 +304,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				97758CEE1FACE4CD0035FF0F /* ViewController.swift in Sources */,
+				97758D221FAD0C530035FF0F /* HorizontalAutoLayOutVC.swift in Sources */,
 				97758CEC1FACE4CD0035FF0F /* AppDelegate.swift in Sources */,
+				97BBB63C1FD942F200F6EF62 /* CompressionPriorityVC.swift in Sources */,
+				97758D1F1FAD06E60035FF0F /* ConstraintPrioritiesVC.swift in Sources */,
+				97758D291FAE4E390035FF0F /* IntrinsicContentSizeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +551,7 @@
 				97758D121FACE4CD0035FF0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97758D131FACE4CD0035FF0F /* Build configuration list for PBXNativeTarget "AutoLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +560,7 @@
 				97758D151FACE4CD0035FF0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97758D161FACE4CD0035FF0F /* Build configuration list for PBXNativeTarget "AutoLayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +569,7 @@
 				97758D181FACE4CD0035FF0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
